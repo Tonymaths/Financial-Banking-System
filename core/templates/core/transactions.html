@@ -1,0 +1,190 @@
+{% extends 'core/base.html' %}
+
+
+
+{% block content %}
+{% include "core/nav.html" %}
+{% include "core/messages.html" %}
+<!-- start home -->
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">welcome <span>{{ user.full_name }}</span></h1>
+        <div>
+          <br>
+        {% block title %} {{ block.super }}{% endblock title %}
+
+
+          <div class="row">
+
+            <div class="col-xs-12 col-md-8 text-left">
+              <h4><b>Account Name: </b>{{ user.full_name }}</h4>
+              <h4><b>Date of Birth: </b>{{ user.birth_date }}</h4>
+              <h4><b>Gender: </b>{{ user.gender }}</h4>
+              <h4><b>Contact No: </b>{{ user.contact_no }}</h4>
+              <h4><b>Email Address: </b>{{ user.email }}</h4>
+              <h4><b>Address: </b>{{ user.Address }}</h4>
+              <h4><b>Location: </b>{{ user.city }}, {{ user.country }}</h4>
+              <h4><b>Occupation: </b>{{ user.occupation }}</h4>
+            </div>
+            <div class="col-xs-6 col-md-4 text-left">
+              <h4><b>Account Created: </b>{{ user.date_joined|date:'d-m-Y' }}</h4>
+              <h4><b>Account No: </b>{{ user.account_no }}</h4><br><br>
+
+                <h4  class="card-body"><b>Account Balance: </b>{{ user.balance }} $</h4>
+              <div class="well">
+                <a class="btn btn-success" href="{% url 'transactions:deposit' %}">Deposit</a>
+                <a class="btn btn-danger" href="{% url 'transactions:withdrawal' %}">Withdraw</a>
+              </div>
+            </div>
+
+          </div>
+
+          <hr>
+        <a data-scroll href="{% url 'logout' %}" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">SIGN OUT</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- end home -->
+
+<!-- start Transaction/Deposit -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"> MY Quick <span>TRANSACTION DETAILS</span></h2>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+
+        <h3>Deposit Details</h3>
+        <table class="table table-hover table-bordered">
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>Date / Time</th>
+            <th>Details</th>
+            <th>Amount ($)</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            {% for obj in deposit %}
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{ obj.timestamp }}</td>
+            <td>Deposit</td>
+            <td>{{ obj.amount }}</td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <th class="text-right" scope="row" colspan="3">Total</th>
+
+            <td>{{ deposit_sum }}</td>
+          </tr>
+
+          </tbody>
+        </table>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- end about -->
+
+<!-- start team -->
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>TYBANK</span> withdrawal(s)</h2>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+        <h3>Withdrawal Details</h3>
+        <table class="table table-hover table-bordered">
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>Date / Time</th>
+            <th>Details</th>
+            <th>Amount ($)</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            {% for obj in withdrawal %}
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{ obj.timestamp }}</td>
+            <td>Withdrawal</td>
+            <td>{{ obj.amount }}</td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <th class="text-right" scope="row" colspan="3">Total</th>
+
+            <td>{{ withdrawal_sum }}</td>
+          </tr>
+
+          </tbody>
+        </table>
+        <hr>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- start interest-->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">TYBANK<span>PERIODIC</span> INTEREST</h2>
+      </div>
+      <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+        <h3>Interest Details</h3>
+        <table class="table table-hover table-bordered">
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>Date / Time</th>
+            <th>Details</th>
+            <th>Amount ($)</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            {% for obj in interest %}
+            <th scope="row">{{forloop.counter}}</th>
+            <td>{{ obj.timestamp }}</td>
+            <td>Interest</td>
+            <td>{{ obj.amount }}</td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <th class="text-right" scope="row" colspan="3">Total</th>
+
+            <td>{{ interest_sum }}</td>
+          </tr>
+
+          </tbody>
+        </table>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- end servie -->
+
+<hr>
+<!-- start contact -->
+{% include "core/contact.html" %}
+
+{% endblock content %}
+
+
+
+

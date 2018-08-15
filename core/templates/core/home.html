@@ -1,0 +1,170 @@
+{% extends 'core/base.html' %}
+
+
+{% block title %} {{ block.super }}{% endblock title %}
+
+{% block content %}
+{% include "core/layout.html" %}
+<!-- start home -->
+<section id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">A bank  with <span>difference</span></h1>
+                <div class="element">
+                    <div class="sub-element">Hello, welcome to TYbank</div>
+                    <div class="sub-element">A secured banking system developed by Anthony C.E, a Python Software developer</div>
+                    <div class="sub-element">Tybank is an online bank system with services to meet your needs</div>
+                    <div class="sub-element">Tybank system contains highly secured features from the latest version of django python library</div>
+                </div>
+                <a data-scroll href="{% url 'register' %}" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a>
+                <a class="btn btn-primary btn-md" href="{% url 'login' %}" role="button">Load Account Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end home -->
+
+<!-- start about -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">WE ARE <span>TYBANK</span></h2>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+                <div class="media">
+                    <div class="media-heading-wrapper">
+                        <div class="media-object pull-left">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3 class="media-heading">A RELIABLE BANK SYSTEM</h3>
+                    </div>
+                    <div class="media-body">
+                        <p>Tybank system contains highly secured features from the latest version of django python library,with  a reliable structure to meet your needs <a rel="nofollow" href="#team" target="_parent">designed by Anthony</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+                <div class="media">
+                    <div class="media-heading-wrapper">
+                        <div class="media-object pull-left">
+                            <i class="fa fa-html5"></i>
+                        </div>
+                        <h3 class="media-heading">Features</h3>
+                    </div>
+                    <div class="media-body">
+                        <p>A functional banking system designed to specially met your banking needs with features including but not limited to</p>
+
+                        <ul >
+                            <li> a secured and friendly<a href="#top"> deposit</a>system</li>
+                            <li>A controlled<a href="#about">withdrawal</a> system</li>
+                            <li>Special <a href="#team">savings</a> account features</li>
+                            <li>Special <a href="#team">current</a> account features</li>
+                            <li> A celery based interest count logic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
+                <div class="media">
+                    <div class="media-heading-wrapper">
+                        <div class="media-object pull-left">
+                            <i class="fa fa-comment-o"></i>
+                        </div>
+                        <h3 class="media-heading">FREE SUPPORT</h3>
+                    </div>
+                    <div class="media-body">
+                        <p>Credits goes to <a rel="nofollow" href="#team">Awesome designers</a> for front end design hint  and <a rel="nofollow" href="/">Github</a>  for further hints and version saves.i hope this demo system will build your confidence in my design abilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- end about -->
+
+<!-- start team -->
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>TYBANK KEY</span> TEAM</h2>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+                <div class="team-wrapper">
+                    <img src="static/images/team-img1.jpg" class="img-responsive" alt="team img 1">
+                    <div class="team-des">
+                        <h4>AWESOME TEAM</h4>
+                        <span>Partners</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+                <div class="team-wrapper">
+                    <img src="static/images/team-img2.jpg" class="img-responsive" alt="team img 2">
+                    <div class="team-des">
+                        <h4>ANTHONY</h4>
+                        <span>Developer</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+                <div class="team-wrapper">
+                    <img src="static/images/team-img3.jpg" class="img-responsive" alt="team img 3">
+                    <div class="team-des">
+                        <h4>JULIA</h4>
+                        <span>Director</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+                <div class="team-wrapper">
+                    <img src="static/images/team-img4.jpg" class="img-responsive" alt="team img 4">
+                    <div class="team-des">
+                        <h4>TYBANK</h4>
+                        <span>Managers</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end team -->
+
+<!-- start service -->
+<section id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR <span>YET TO INCLUDE</span> FEATURES</h2>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <i class="fa fa-laptop"></i>
+                <h4>Internet banking</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+            </div>
+            <div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+                <i class="fa fa-cloud"></i>
+                <h4>Updated AI Computing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <i class="fa fa-cog"></i>
+                <h4> Upgraded UX Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end servie -->
+<br>
+{% include "core/contact.html" %}
+
+{% endblock content %}

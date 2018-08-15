@@ -1,0 +1,23 @@
+{% extends "core/base.html" %}
+{% include "core/layout.html" %}
+{% load crispy_forms_tags %}
+{% block title %} {{ title }} | {{ block.super }}{% endblock title %}
+
+{% block content %}
+{% include "core/messages.html" %}
+<br>
+<h2>{{ title }}</h2>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-sm-8 col-md-12 ">
+     <form method="POST" action="" enctype='multipart/form-data'>
+      {% csrf_token %}
+      {{ form|crispy }}
+      <br>
+      <input class="btn btn-success" type="submit" value='Submit'>
+     </form>
+    </div>
+</div>
+</div>
+{% endblock content %}
