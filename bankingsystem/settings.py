@@ -29,7 +29,7 @@ SECRET_KEY = "{{ secrete_key}}"
     #SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['tonysbank.herokuapp.com']
@@ -157,7 +157,7 @@ STATICFILES_DIRS=( os.path.join(PROJECT_ROOT, 'static'),)
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 MEDIA_URL = "/media/"
 MEDIA_ROOT= os.path.join(PROJECT_ROOT, "mediafiles")
 
