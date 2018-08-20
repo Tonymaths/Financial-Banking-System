@@ -25,11 +25,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "{{ secrete_key}}"
-#with open('C:\\Users\TONY EZEMBAMALU\Downloads\lectures\sec.txt') as f:
-    #SECRET_KEY = f.read().strip()
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['tonysbank.herokuapp.com']
@@ -44,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'whitenoise.runserver_nostatic',
+
 
     'django_celery_beat',
     'crispy_forms',
@@ -159,7 +158,7 @@ STATICFILES_DIRS=( os.path.join(PROJECT_ROOT, 'static'),)
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 MEDIA_URL = "/media/"
-MEDIA_ROOT= os.path.join(PROJECT_ROOT, "mediafiles")
+MEDIA_ROOT= os.path.join(PROJECT_ROOT, "media_cdn")
 
 
 
