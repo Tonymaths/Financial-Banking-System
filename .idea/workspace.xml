@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39db98ae-f834-4d7f-8a5e-1148f4785d27" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/css/templatemo-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/home-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/home-bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/portfolio-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/portfolio-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/portfolio-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/portfolio-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/team-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/team-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/team-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/images/team-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/jquery.singlePageNav.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/typed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/static/js/wow.min.js" afterPath="" />
-    </list>
+    <list default="true" id="39db98ae-f834-4d7f-8a5e-1148f4785d27" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -73,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
@@ -165,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -198,6 +168,11 @@
               <item name="bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="bankingsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,10 +229,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -544,14 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/templates/core/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -625,6 +591,14 @@
           <folding>
             <element signature="e#317#326#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
