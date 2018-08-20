@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39db98ae-f834-4d7f-8a5e-1148f4785d27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bankingsystem/settings.py" afterPath="$PROJECT_DIR$/bankingsystem/settings.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/staticfiles/images/l.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/staticfiles/images/portfolio-img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/staticfiles/images/portfolio-img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/staticfiles/images/portfolio-img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/staticfiles/images/portfolio-img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/l.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio-img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio-img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio-img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio-img4.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +26,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="29">
               <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#317#326#0" expanded="true" />
@@ -621,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="29">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="e#317#326#0" expanded="true" />
