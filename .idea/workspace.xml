@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39db98ae-f834-4d7f-8a5e-1148f4785d27" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/css/templatemo-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/home-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/home-bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/portfolio-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/portfolio-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/portfolio-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/portfolio-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/team-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/team-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/team-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/images/team-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/jquery.singlePageNav.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/typed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bankingsystem/static/js/wow.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bankingsystem/settings.py" afterPath="$PROJECT_DIR$/bankingsystem/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +17,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3272">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="208">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding>
                 <element signature="e#317#326#0" expanded="true" />
               </folding>
@@ -620,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3272">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
             <element signature="e#317#326#0" expanded="true" />
           </folding>
