@@ -1,8 +1,6 @@
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.javascript linguist-detectable=false
 
-52.90%  Python
-42.84%  JavaScript
-2.87%   Django
-0.62%   CSS
-0.41%   HTML
-0.35%   Shell
+
 
