@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39db98ae-f834-4d7f-8a5e-1148f4785d27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingsystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankingsystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,9 @@
         <option value="$PROJECT_DIR$/bankingsystem/settings.py" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -104,6 +111,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bank project_2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\Financial Banking System\bankingsystem" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="Tonymaths.github.io" />
@@ -172,9 +184,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bankingsystem/settings.py">
