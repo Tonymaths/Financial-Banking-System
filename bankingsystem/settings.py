@@ -31,9 +31,9 @@ SECRET_KEY = "{{ secrete_key}}"
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['tonysbank.herokuapp.com']
+# ALLOWED_HOSTS = ['tonysbank.herokuapp.com']
 
-
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -59,6 +59,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -88,11 +89,12 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bankingsystem.wsgi.application'
+#WSGI_APPLICATION = 'bankingsystem.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
@@ -101,9 +103,11 @@ DATABASES = {
     }
 }
 
-db_from_env = dj_database_url.config()
-DATABASES['default']=db_from_env
-DATABASES['default']['CONN_MAX_AGE'] = 500
+
+
+#db_from_env = dj_database_url.config()
+#DATABASES['default']=db_from_env
+#DATABASES['default']['CONN_MAX_AGE'] = 500
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -145,7 +149,9 @@ PROJECT_ROOT= os.path.dirname(os.path.abspath(__file__))
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_ROOT= os.path.join(PROJECT_ROOT, 'staticfiles')
+
+VENV_PATH= os.path.dirname(PROJECT_ROOT)
+STATIC_ROOT= os.path.join(VENV_PATH, 'static_root')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS=( os.path.join(PROJECT_ROOT, 'static'),)

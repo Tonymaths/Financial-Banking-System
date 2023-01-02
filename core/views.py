@@ -42,7 +42,7 @@ def contact(request):
         if form.is_valid():
             save_it = form.save(commit=False)
             save_it.save()
-            messages.success(request, 'Thanks, ANTHONY will get in touch')
+            messages.success(request, 'Thanks, Engr.ANTHONY will get in touch')
             return render(request, 'core/home.html', {'form': form})
 
         else:
