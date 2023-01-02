@@ -1,10 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-$ cat .gitattributes
-public/* linguist-generated
-scot-ui/public/* linguist-generated
 
-$ github-linguist
 52.90%  Python
 42.84%  JavaScript
 2.87%   Django
