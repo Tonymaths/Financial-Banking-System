@@ -17,6 +17,7 @@ olefile==0.45.1
 Pillow==9.3.0
 prompt-toolkit==3.0.36
  psycopg2
+ psycopg2-binary
  python3.11-dev
 pytz==2018.5
 redis==2.10.6
