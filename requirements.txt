@@ -1,5 +1,5 @@
 amqp==5.1.1
-python-dev libpq-dev
+python-dev
 auxlib
 ez_setup
 unroll
