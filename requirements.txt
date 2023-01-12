@@ -1,5 +1,4 @@
 amqp==5.1.1
---use-deprecated
 auxlib
 asgiref==3.6.0
 billiard<3.6.0 
