@@ -1,7 +1,7 @@
 amqp==5.1.1
 python-dev-tools
 auxlib
-setuptools>=46.1.0setuptools>=46.1.0
+setuptools<58.0.0
 asgiref==3.6.0
 billiard<3.6.0 
 celery>=4.0.0
