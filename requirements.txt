@@ -29,4 +29,4 @@ tzdata==2022.7
 vine>=1.3.0 
 wcwidth==0.2.5
 whitenoise==6.2.0
---upgrade pip setuptools wheel
+pip setuptools wheel
