@@ -93,7 +93,8 @@ venv.bak/
 
 /.idea/
 .idea/workspace.xml
-.setuptools/dist.py
+*.setuptools/dist.py
+*.opt/venv/lib/
 
 # Spyder project settings
 .spyderproject
