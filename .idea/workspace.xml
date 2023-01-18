@@ -135,7 +135,7 @@
     <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bank-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
+      <option name="PARENT_ENVS" value="false" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
